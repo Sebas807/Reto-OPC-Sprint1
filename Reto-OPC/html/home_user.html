@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Lista de Eventos</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1a28e5f39b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/eventos.css">
+    <script src="../js/home_user.js"></script>
+</head>
+<header>   
+    <div class="overlay">      
+        <h1>Lista de Eventos</h1>
+    </div>
+</header>
+
+<body>
+    <a href="login_admin.html" id="btn_log_user"><i class="fa-solid fa-right-from-bracket" style="font-size:50px"></i></a>
+    <br>
+    <center>
+        <br>
+        <table class="options">
+            <tr>
+                <th><input type="text" placeholder="Ingrese ID del evento" id="current_id" ></th>
+                <th><button class="btn" id="btnRegistro">Registrarme</button></th>
+            </tr>
+        </table>
+        <br> 
+        <table class="head_user">
+            <th class="id_info">
+                <input type="text" value="ID del evento" readonly>
+                <input type="text" value="Nombre del evento" readonly>
+                <input type="text" value="Fecha y hora" readonly>
+                <input type="text" value="Capacidad de personas" readonly>
+                <input type="text" value="Duración (horas)" readonly>
+            </th>
+
+        </table>
+        <div id="user_table">
+        </div>      
+    </center>
+    <center>
+      <table class="option">
+        <tr>
+          <th><button class="btnRegiCan" id="btnRegis_can">Registros actuales y cancelación</button></th>
+        </tr>
+      </table>
+    </center>
+</body>
+</html>
